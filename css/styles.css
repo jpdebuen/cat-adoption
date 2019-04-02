@@ -1,0 +1,310 @@
+/*QUERY MÓVIL*/
+@media screen and (min-width: 520px) {
+    * {
+        margin: 0;
+        font-family: Arial, Helvetica, sans-serif;
+        color: white;
+        box-sizing: border-box;
+    }
+
+    .main-header{
+        height: 100vh;
+        background: url("../img/bg-header.jpg");
+        background-size: cover;
+        background-repeat: no-repeat;
+        background-position: center top;
+    }
+
+    .main-header nav{
+        padding-top: 10px;
+    }
+
+    .main-header div span{
+        font-size: 20vh;
+        text-transform: uppercase;
+    }
+
+    .main-header nav ul{
+        margin-left: auto;
+        margin-right: auto;
+        margin-top: 100px;
+        margin-bottom: 100px;
+        width: 90%;
+        list-style: none;
+        font-size: 20px;
+        padding: 0px;
+    }
+
+    .main-header nav ul li{
+        transition: all .1s ease;
+        font-size: 30px;
+        height: 30px;
+        padding-top: 40px;
+        padding-bottom: 40px;
+        text-align: center;
+    }
+
+    .main-header nav ul li:hover{
+        cursor: pointer;
+        padding-left: 10px;
+        text-decoration: underline;
+    }
+    .slogan-wrapper{
+        display: block;
+        width: 50%;
+        margin-left: 5%;
+        margin-right: auto;
+        position: relative;
+        text-align: right;
+    }
+    .slogan-wrapper span{
+        font-weight: bolder;
+    }
+    .slogan-wrapper img{
+        color: white;
+        width: 10%;
+        height: 10%;
+        position: absolute;
+    }
+    .container-components {
+        display: flex;
+        width: 90%;
+        justify-content: space-between;
+        margin-left: auto;
+        margin-right: auto;
+        margin-top: 20vh;
+    }
+    .services-components{
+        display: block;
+        max-width: 30%;
+    }
+    .services-components i{
+        font-size: 60px;
+        opacity: 0.6;
+        margin-bottom: 20px;
+    }
+    .services-components h3{
+        font-size: 24px;
+        font-weight: lighter;
+        text-transform: uppercase;
+        opacity: 0.6;
+        padding-right: 50px;
+        margin-bottom: 20px; 
+    }
+    .services-components p{
+        font-size: 18px;
+        opacity: 0.6;
+        margin-bottom: 20px;
+    }
+    .letter{
+        opacity: .6;
+    }
+}
+
+/*QUERY TABLET*/
+@media screen and (min-width: 760px) {
+    * {
+        margin: 0;
+        font-family: Arial, Helvetica, sans-serif;
+        color: white;
+        box-sizing: border-box;
+    }
+
+    .main-header{
+        height: 100vh;
+        background: url("../img/bg-header.jpg");
+        background-size: cover;
+        background-repeat: no-repeat;
+        background-position: center top;
+    }
+
+    .main-header nav{
+        padding-top: 10px;
+    }
+
+    .main-header div span{
+        font-size: 20vh;
+        text-transform: uppercase;
+    }
+
+    .main-header nav ul{
+        display: flex;
+        margin-left: auto;
+        margin-right: auto;
+        margin-top: 40px;
+        margin-bottom: 100px;
+        width: 90%;
+        list-style: none;
+        font-size: 20px;
+        background-color: peru;
+    }
+
+    .main-header nav ul li{
+        transition: all .1s ease;
+        width: 20%;
+        font-size: 30px;
+        height: 30px;
+        padding-top: 40px;
+        padding-bottom: 40px;
+        text-align: center;
+    }
+
+    .main-header nav ul li:hover{
+        cursor: pointer;
+        padding-left: 10px;
+        text-decoration: underline;
+    }
+    .slogan-wrapper{
+        display: block;
+        width: 50%;
+        margin-left: 5%;
+        margin-right: auto;
+        position: relative;
+        text-align: right;
+    }
+    .slogan-wrapper span{
+        font-weight: bolder;
+    }
+    .slogan-wrapper img{
+        color: white;
+        width: 10%;
+        height: 10%;
+        position: absolute;
+    }
+    .container-components {
+        display: flex;
+        width: 90%;
+        justify-content: space-between;
+        margin-left: auto;
+        margin-right: auto;
+        margin-top: 20vh;
+    }
+    .services-components{
+        display: block;
+        max-width: 30%;
+    }
+    .services-components i{
+        font-size: 60px;
+        opacity: 0.6;
+        margin-bottom: 20px;
+    }
+    .services-components h3{
+        font-size: 24px;
+        font-weight: lighter;
+        text-transform: uppercase;
+        opacity: 0.6;
+        padding-right: 50px;
+        margin-bottom: 20px; 
+    }
+    .services-components p{
+        font-size: 18px;
+        opacity: 0.6;
+        margin-bottom: 20px;
+    }
+    .letter{
+        opacity: .6;
+    }
+}
+
+/*QUERY DESKTOP*/
+@media screen and (min-width: 1024px) {
+    * {
+        margin: 0;
+        font-family: Arial, Helvetica, sans-serif;
+        color: white;
+        box-sizing: border-box;
+    }
+
+    .main-header{
+        height: 100vh;
+        background: url("../img/bg-header.jpg");
+        background-size: cover;
+        background-repeat: no-repeat;
+        background-position: center top;
+    }
+
+    .main-header nav{
+        padding-top: 70px;
+    }
+
+    .main-header div span{
+        font-size: 20vh;
+        text-transform: uppercase;
+    }
+    .main-header nav ul{
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        margin-top: 0px;
+        margin-bottom: 0px;
+        width: 20%;
+        list-style: none;
+        font-size: 20px;
+        background-color: rgba(0, 0, 0, 0);
+    }
+
+    .main-header nav ul li{
+        transition: all .1s ease;
+        font-size: 16px;
+        height: auto;
+        width: auto;
+        padding-top: 0px;
+        padding-bottom: 0px;
+        text-align: left;
+    }
+    .main-header nav ul li:hover{
+        cursor: pointer;
+        padding-left: 10px;
+        text-decoration: underline;
+    }
+    .slogan-wrapper{
+        display: block;
+        width: 50%;
+        margin-left: 5%;
+        margin-right: auto;
+        position: relative;
+        text-align: right;
+    }
+    .slogan-wrapper span{
+        font-weight: bolder;
+    }
+    .slogan-wrapper img{
+        color: white;
+        width: 10%;
+        height: 10%;
+        position: absolute;
+    }
+    .container-components {
+        display: flex;
+        width: 90%;
+        justify-content: space-between;
+        margin-left: auto;
+        margin-right: auto;
+        margin-top: 20vh;
+    }
+    .services-components{
+        display: block;
+        max-width: 30%;
+    }
+    .services-components i{
+        font-size: 60px;
+        opacity: 0.6;
+        margin-bottom: 20px;
+    }
+    .services-components h3{
+        font-size: 24px;
+        font-weight: lighter;
+        text-transform: uppercase;
+        opacity: 0.6;
+        padding-right: 50px;
+        margin-bottom: 20px; 
+    }
+    .services-components p{
+        font-size: 18px;
+        opacity: 0.6;
+        margin-bottom: 20px;
+    }
+    .letter{
+        opacity: .6;
+    }
+}
